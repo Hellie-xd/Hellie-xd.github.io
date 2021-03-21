@@ -1,0 +1,179 @@
+*{
+	padding : 0;
+	margin : 0;
+}
+
+body{
+	background: linear-gradient(#000, #000, #000, #000, #940000);
+}
+a{
+	color: white;
+	text-decoration: none;
+	font-size: 30px;
+	transition: all 1s ease-in-out;
+}
+
+a:hover{
+	color: #00fff2;
+	transition: all 1s ease-in-out;
+	font-size: 40px;
+}
+
+a:active{
+	transition: all 0.2s ease-out;
+	opacity: 50%;
+	font-size: 60px;
+}
+
+#lap{
+	width: 80%;
+	height: 2000px;
+	min-width: 600px;
+	margin-left: 6%;
+}
+
+#top{
+	z-index: 10;
+	/*margin-top: 20px;*/
+	width: 110%;
+	height: 200px;
+	background: linear-gradient(#a12e00, #381400);
+	border-bottom-left-radius: 100px;
+	border-bottom-right-radius: 100px;
+	text-shadow: 10px;
+}
+
+#logo{
+	z-index: 10;
+	position:absolute;
+	width: 100px;
+	height:100px;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+#cim{
+	z-index: 10;
+	padding-top: 20px;
+	font-family: arial;
+	font-size: 30px;
+	color: #fff;
+}
+
+#lista{
+	z-index: 10;
+	width: 100%;
+	height: 50px;
+	margin-top: 10px;
+}
+
+.lista{
+	z-index: 10;
+	float: left;
+	margin-top: 20px;
+	height: 20px;
+	font-size: 30px;
+}
+
+@keyframes ablakslide{
+	0%{
+		transform: translateY(-100%);
+	}
+	10%{
+		transform: translateY(-80%);
+	}
+	40%{
+		transform: translateY(-40%);
+	}
+	60%{
+		transform: translateY(-20%);
+	}
+	90%{
+		transform: translateY(-10%);
+	}
+	100%{
+		transform: translateY(0%);
+	}
+}
+
+#ablak{
+	position: absolute;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 200px;
+	background-color: #969696;
+	background-image: url("https://www.transparenttextures.com/patterns/textured-paper.png");
+	/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+	animation: 8s ease-in-out 0s 1 ablakslide;
+
+	position: relative;
+	top: -100px;
+	background-color: white;
+	height: 1500px;
+	width: 90%;
+	margin-left: 10%;
+	z-index: -1;
+	font-size: 40px;
+}
+
+#ablak p{
+	margin-top: 10px;
+}
+
+#alairas{
+	position: relative;
+	font-size: 10px;
+	top: 1250px;
+}
+
+#left{
+	position: fixed;
+	border-radius: 30px;
+	left: 10px;
+	top: 70%;
+	width: 105px;
+	height: 105px;
+	opacity: 70%;
+	z-index: 99;
+	background-image: url("Images/comp-arrow.png");
+}
+
+#footer{
+	position: fixed;
+	min-width: 600px;
+	left: 10%;
+	bottom: 0;
+	width: 80%;
+	background: linear-gradient(#381400, #a12e00);
+	color: white;
+	text-align: center;
+	font-size: 40px;
+	padding: 10px;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+	z-index: 200;
+}
+
+.fekete{
+	background-color: #000000;
+}
+
+.sotetb{
+	background-color: #381400;
+}
+
+.barna{
+	background-color: #852e00;
+}
+
+.nar{
+	background-color: #e38800;
+}
+
+.vilter{
+	background-color: #bf4e28;
+}
+
+.sotetv{
+	background-color: #940000;
+}
