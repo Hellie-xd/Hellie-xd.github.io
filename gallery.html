@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" type="image/png" href="Images/comp-logo.png">
+	<meta charset="utf-8">
+	<title>Galéria - Hellie Prankst3r</title>
+	<link rel="stylesheet" type="text/css" href="gallery.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap-grid.css">
+</head>
+<script>
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+<body>
+	<div id="lap">
+		<div id="top" class="nar">
+			<div id="logo"><img src="Images/comp-logo.png" height="100px" width="100px"></div>
+			<div id="cim">
+				<center><h1>Hellie's lair &trade;</h1></center>
+			</div>
+			<div id="lista">			
+				<div class="lista col-lg-3 col-sm-6">
+					<center><a href="index.html">Főoldal</a></center>	
+				</div>
+				<div class="lista col-lg-3 col-sm-6">
+					<a href="info.html">Egyéb infók</a>
+				</div>
+				<div class="lista col-lg-3 col-sm-6">
+					<center><a href="gallery.html">Galéria</a></center>
+				</div>
+				<div class="lista col-lg-3 col-sm-6">
+					<a href="contact.html">Elérhetőségeim</a>
+				</div>	
+			</div>
+		</div>
+		<div id="ablak">
+			<div class="kep col-sm-5">
+				<a href="instruments.html"><img src="Images/gitar-comp.jpg" width="100%"></a>
+				<center>Hangszereim</center>
+			</div>
+			<div class="kep col-sm-5">
+				<img src="Images/fellepes-comp.jpg" width="100%" title="Nem elérhető">
+				<center>Fellépések, jelenések <br> (még nem elérhető)</center>
+			</div>
+			<div class="kep col-sm-5">
+				<a href="music.html"><img src="Images/kotta.png" width="100%"></a>
+				<center>Zenéim</center>
+			</div>
+
+		</div>
+		<div id="left"><button id="left" onclick="topFunction()" title="Vissza a tetejére"></button></div>
+		<div id="footer">&copy; Hellie Prankst3r</div>
+	</div>
+</body>
+</html>
